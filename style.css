@@ -1,0 +1,83 @@
+
+body{
+    background-color: #91a8d2;
+  }
+  .card {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      border: black solid 3px;
+      height: 100px;
+      width: 500px;
+      z-index: 6;
+  }
+  #ques {
+      text-align: center;
+      display: flex;
+      margin: 0 auto;
+      flex-direction: column;
+      border: black solid 3px;
+      border-radius: 5px;
+      width: 400px;
+  }
+  .bttn {
+      margin: 0 auto;
+      height: 50px;
+      width: 90px;
+      color: white;
+  }
+  #question {
+      text-align: center;
+  }
+  #answer {
+      text-align: center;
+  }
+  p {
+      display: flex;
+      justify-content: center;
+      color: white;
+  }
+  #flash {
+    display: flex;
+    justify-content: center;
+  }
+  #headline {
+    display: flex;
+    justify-content: center;
+  }
+  #intro {
+    display: flex;
+    justify-content: center;
+  }
+  .words {
+    font-family:"Abril Fatface", ""; color: white; text-shadow: 0 0 10px grey;
+  }
+  #logo {
+    width:10%;
+    height:auto;
+    border-radius: 100px;
+  }
+  #fotter {
+    background-color: white;
+    width: 100%;
+    height: 50%;
+    color:darkslategrey;
+    display: flex;
+    justify-content:flex-start;
+  }
+  #fotter p{
+    font-size: 24px;
+  }
+  #footer{
+      background-color:white;
+      width:100%;
+      height:100%;
+      color: darkslategrey;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+  }
+  #footer p{
+      font-size:24px;
+  }
+  
